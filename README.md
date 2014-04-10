@@ -20,7 +20,7 @@ Then add the following box:
 
     vagrant box add centos65-x86_64-20131205 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.1/centos65-x86_64-20131205.box
 
-## Provisioning the grokdbug virtual machine
+## Provisioning the grokdebug virtual machine
 
 Clone this project, and cd into the cloned dir `cd grogdebug`
 
@@ -34,5 +34,6 @@ Once the downloads are complete (could take upto 30mins, have a brew, in the mea
 The provisioning will start ruby and grokdebug on port 80.  This will be accessible from your
 host via portforwarding on port 8181.
 
-You will be able to access grok debug on http://localhost:8181/ from your machine.
-Enjoy. 
+You will be able to access grok debug on your local machine from:
+
+`http://localhost:8181/`
